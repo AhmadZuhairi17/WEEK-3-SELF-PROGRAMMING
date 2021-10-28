@@ -1,0 +1,39 @@
+package numericData;
+
+import java.util.Scanner;
+
+class Exercise4 {
+
+	public static void main(String[] args) {
+		String name;
+		double bal1;
+		double bal2;
+		double amount;
+		char y;
+		char n;
+		
+		Scanner sc=new Scanner(System.in); //sc is new object for scanner input
+		
+		System.out.println("Please enter name: ");
+		name=sc.nextLine();
+		System.out.println("Welcome " + name + "!!!");
+		
+		System.out.println("\nPlease enter your balance: ");
+		bal1=sc.nextDouble();
+		
+		System.out.println("Please enter your amount: ");
+		amount=sc.nextDouble();
+		
+		bal2=bal1-amount;
+		System.out.println("Your current balance is " + bal2);
+		System.out.println("Do you want to proceed : ");
+		
+		y=sc.next().charAt(0);
+		System.out.println("Yes" +y);
+		
+		n=sc.next().charAt(0);
+		System.out.println("No" +n);	
+	
+	}
+
+}
