@@ -1,0 +1,15 @@
+package numericalData;
+
+class ExampleFormattingOutp2 {
+
+	public static void main(String[] args) {
+	double price=17.895;
+	System.out.printf("%-10s", "Total:");
+	System.out.print(price);
+	System.out.printf("\n%10.2f", price);
+	System.out.printf("\n%-10s%10.2f", "Total:", price);
+	
+
+	}
+
+}
