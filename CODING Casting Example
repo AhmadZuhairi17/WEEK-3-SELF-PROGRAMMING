@@ -1,0 +1,11 @@
+
+class CastingExample {
+
+	public static void main(String[] args) {
+		int total = 50;
+		float result = (float) total / 6;
+		System.out.print(result);
+
+	}
+
+}
